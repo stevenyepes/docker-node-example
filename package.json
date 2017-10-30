@@ -4,5 +4,8 @@
   "description": "docker and node example for development",
   "main": "server.js",
   "author": "jsteven",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  }
 }
