@@ -1,0 +1,8 @@
+{
+  "name": "docker-node-example",
+  "version": "1.0.0",
+  "description": "docker and node example for development",
+  "main": "server.js",
+  "author": "jsteven",
+  "license": "MIT"
+}
