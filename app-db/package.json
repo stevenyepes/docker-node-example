@@ -1,0 +1,20 @@
+{
+  "name": "app-db",
+  "version": "1.0.0",
+  "description": "A example of making an API with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "start": "node setup.js --y",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JSteven",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "defaults": "^1.0.3",
+    "inquirer": "^4.0.1",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.23.2"
+  }
+}
