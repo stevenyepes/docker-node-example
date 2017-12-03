@@ -1,0 +1,35 @@
+{
+  "name": "app-api",
+  "version": "1.0.0",
+  "description": "A simple IoT platform API",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "lint": "standard",
+    "start-dev": "DEBUG=app:* nodemon -L server.js",
+    "test": "DEBUG=app:* ava tests/ --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenyepes/docker_node_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenyepes/docker_node_example/issues"
+  },
+  "homepage": "https://github.com/stevenyepes/docker_node_example#readme",
+  "dependencies": {
+    "app-db": "file:../app-db",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-asyncify": "^1.0.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
